@@ -1,0 +1,12 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+.tab {
+  display: none;
+}
+.tab.active {
+  display: block;
+}
