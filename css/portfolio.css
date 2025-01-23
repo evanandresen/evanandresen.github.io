@@ -1,0 +1,31 @@
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    border-bottom: 5px solid #333;
+  }
+.portfolio-item:nth-child(even) {
+    flex-direction: row-reverse;
+    }
+.portfolio-text {
+    max-width: 50%;
+    }
+
+.portfolio-text h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+  
+.portfolio-text p {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.portfolio-media img,
+.portfolio-media iframe{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
